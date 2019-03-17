@@ -6,6 +6,19 @@ body
     margin-top: 50px;
 }
 
+.qe a
+{
+    color: #00FF00;
+    font-family: Audiowide;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.qe
+{
+    margin-top: 200px;
+    text-align: center;
+}
 
 .main
 {
