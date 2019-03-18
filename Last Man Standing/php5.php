@@ -16,8 +16,8 @@ echo $p;
 $r=$_SESSION['user_id'];
 if($_POST["pswrd"] == $p)
 {
-mysqli_query($conn,"UPDATE progress SET Q4=1,total=total+1 WHERE TeamID=$r");
-if($q==5)
+mysqli_query($conn,"UPDATE progress SET Q5=1,total=total+1 WHERE TeamID=$r");
+if($q+1==5)
 {
 	
 	mysqli_query($conn,"UPDATE teams SET timestamp=CURRENT_TIMESTAMP() WHERE TeamID=$r");
